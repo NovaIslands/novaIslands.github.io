@@ -103,7 +103,7 @@
 		color: rgb(235,235,235);
 	}*/
     
-	.manaSparkTitle
+	.gameTitle
 	{
 		background: url("/img/logo.png");
         background-repeat: no-repeat;
@@ -143,7 +143,7 @@
     
     .headerImage
     {
-        background: url("/img/headerManaSpark.png");
+        background: url("/img/headerGame.png");
         background-repeat: no-repeat;
         /*background-position: 50% 50%;*/
         background-size: 100%;
@@ -696,7 +696,7 @@
 		transform: translate(0%, -11.5%);
 	}
     
-	.manaSparkTitle
+	.gameTitle
 	{
         background-size: 70%;
 	}
@@ -706,7 +706,7 @@
     #content{
 		transform: translate(0%, -18.5%);
 	}
-	.manaSparkTitle
+	.gameTitle
 	{
         background-size: 70%;
 	}
@@ -734,7 +734,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1800px) {    
-    .manaSparkTitle
+    .gameTitle
 	{
         height: 480px;
         background-size: 70%;
@@ -749,7 +749,7 @@
 		transform: translate(0%, -11.5%);
 	}
     
-	.manaSparkTitle
+	.gameTitle
 	{
         height: 180px;
         background-size: 70%;
@@ -770,7 +770,7 @@
 		transform: translate(0%, -11.5%);
 	}
     
-	.manaSparkTitle
+	.gameTitle
 	{
         height: 180px;
         background-size: 60%;
@@ -818,7 +818,7 @@
 		transform: translate(0%, -6.5%);
 	}
     
-    .manaSparkTitle
+    .gameTitle
 	{
         height: 180px;
         background-size: 70%;
@@ -873,7 +873,7 @@
 		transform: translate(0%, -31.5%);
 	}
     
-    .manaSparkTitle
+    .gameTitle
 	{
         height: 180px;
         background-size: 65%;
@@ -914,7 +914,7 @@
 	h1{font-size:3em;}
 	.subHeading{font-size:1.75em;}
 	
-    .manaSparkTitle
+    .gameTitle
 	{
         height: 160px;
         background-size: 60%;
