@@ -65,7 +65,7 @@
 		font-weight: lighter;
 		margin:0 0 2em 0;
 		text-align: justify center;
-		color: rgb(235,235,235);
+		color: rgb(10,10,10);
 	}
     h4 {
 		/*font:18px/1.5em sans-serif;*/
@@ -590,11 +590,11 @@
 		top:0;
 		left:50%;
 		transform: translate(-50%, 0);
-        background:#b3dea5;		
+        background:rgb(179, 222, 165, 0.95);		
 	}
 
 	.socialbutton {
-		width: 35%;
+		width: 80%;
 		height: auto;
 		display: block;
 		margin-left: auto;
@@ -693,7 +693,7 @@
 
 @media all and (min-width: 2500px){
     #content{
-		transform: translate(0%, -11.5%);
+		transform: translate(0%, -13.5%);
 	}
     
 	.gameTitle
@@ -704,7 +704,7 @@
 
 @media (min-width: 1800px) and (max-width: 2500px){
     #content{
-		transform: translate(0%, -18.5%);
+		transform: translate(0%, -20.5%);
 	}
 	.gameTitle
 	{
@@ -729,7 +729,7 @@
 
 @media (min-width: 768px) and (max-width: 1800px) and (device-aspect-ratio: 16/10) {
     #content{
-		transform: translate(0%, -14.5%);
+		transform: translate(0%, -16.5%);
 	}
 }
 
@@ -746,7 +746,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px){
     #content{
-		transform: translate(0%, -11.5%);
+		transform: translate(0%, -13.5%);
 	}
     
 	.gameTitle
@@ -767,7 +767,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
     #content{
-		transform: translate(0%, -11.5%);
+		transform: translate(0%, -13.5%);
 	}
     
 	.gameTitle
@@ -815,7 +815,7 @@
 	.subHeading{font-size:1.75em;}
 	
     #content{
-		transform: translate(0%, -6.5%);
+		transform: translate(0%, -8.5%);
 	}
     
     .gameTitle
@@ -870,7 +870,7 @@
 	.subHeading{font-size:1.75em;}
 	
     #content{
-		transform: translate(0%, -31.5%);
+		transform: translate(0%, -32.5%);
 	}
     
     .gameTitle
@@ -930,7 +930,7 @@
 	}
 	
     #content{
-		transform: translate(0%, -22.5%);
+		transform: translate(0%, -24.5%);
 	}
     
 	ul {
@@ -978,7 +978,7 @@
 	}
     
     #content{
-		transform: translate(0%, -26.5%);
+		transform: translate(0%, -27.5%);
 	}
     
     .playTheDemoButton
