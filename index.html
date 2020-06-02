@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mana Spark</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1,height=device-height">
+  <meta name="description" content="Nova Islands game's landing page" />
+    <meta name="abstract" content="Nova Islands Game" />
+    <meta name="copyright" content="Copyright 2020 Behemutt. All Rights Reserved." />
+    <meta name="credits" content="Copyright 2020 Behemutt. All Rights Reserved." />
+    <meta name="author" content="Behemutt" />
+    <meta property="og:title" content="Nova Islands" />
+    <meta property="og:site_name" content="Nova Islands" />
+    <meta property="og:description" content="Nova Islands game's landing page" />
+    <meta property="og:image" content="./img/favicon.png" />
+    <meta property="og:type" content="website" />
+  <link rel="stylesheet" type="text/css" href="css/default.css" media="all">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+  <link rel="icon" href="./img/favicon.png">
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="./js/bowser.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script type="text/javascript">
+    $(function($){
+        var addToAll = false;
+        var gallery = true;
+        var titlePosition = 'inside';
+        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+            var $this = $(this);
+            var title = $this.attr('title');
+            var src = $this.attr('data-big') || $this.attr('src');
+            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+            $this.wrap(a);
+        });
+        if (gallery)
+            $('a.fancybox').attr('rel', 'fancyboxgallery');
+        $('a.fancybox').fancybox({
+            titlePosition: titlePosition
+        });
+    });
+    $.noConflict();
+</script>
+  
+  <!--<script src="js/jquery-1.7.2.min.js"></script>-->
+  <script type="text/javascript" language="JavaScript" src="js/jquery.i18n.properties.min.js"></script>
+  <script src="js/default.js"></script>
+
+  <script>
+    jQuery.i18n.properties({
+        name: 'Strings',
+        path: 'strings/',
+        language: 'en',
+    });
+    
+    window.onload = function()
+    {
+        if(bowser.mobile || bowser.tablet)
+        {
+            jQuery("#openSteamDiv").hide();
+        }
+    }
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67068724-1', 'auto');
+  ga('send', 'pageview');
+
+
+  /*document.getElementById('facebookLink').onclick = function() {
+    //ga('send', 'event', 'button', 'click', 'nav-buttons');
+    alert('test');
+  };*/
+  
+  </script>
+
+  <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup{background:rgb(19,18,21); clear:left; font:14px Helvetica,Arial,sans-serif; height:350px}
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc_embed_signup form {display:inline; position:relative; text-align: center; align-content: center; padding:10px 0 10px 3%;}
+    #mc_embed_signup input.email {display:inline; padding:8px 0; margin:0 0% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+    #mc_embed_signup input.button {display:inline; width:35%; margin:0 0 10px 0; min-width:90px;}
+  </style>
+
+  <!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+        box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1);
+    } 
+    a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }
+</style>
+
+</head>
+
+<body>
+  <div class="headerImage">
+  </div>
+  <div id="pagewidth">
+      
+    <div id="content">
+    <section id="title">
+        <div class="manaSparkTitle"/>
+    </section>
+      <div class="innerContent">
+        <section id="gifs" class="row">
+          <div class="center">
+            <div class="columns">
+                <div class="center">
+                  <img src="img/main_gif.gif" alt="">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="description" class="row">
+          <div class="center descriptionTextPitching">
+            <h3><script>document.write(gameFeatures);</script></h3>
+          </div>
+        </section>
+        <section id="playTheDemo" class ="row">
+            <!--<div class="playTheDemoButton">
+                <a target="_blank" href="http://gamejolt.com/games/mana-spark/146969">
+                    <img src="./img/playTheDemo.png">
+                </a>
+            </div>-->
+            <iframe src="http://store.steampowered.com/widget/630720/" frameborder="0" width="646" height="190"></iframe>
+        </section>
+        <section id="screenshots" class="row">
+          <div class="center">
+            <div class="ssHolder">
+                <img class="fancybox" src="img/ss0.png" alt="">
+            </div>            
+            <div class="ssHolder">
+                <img class="fancybox" src="img/ss1.png" alt="">
+            </div>            
+            <div class="ssHolder">
+                <img class="fancybox" src="img/ss2.png" alt="">
+            </div>            
+            <div class="ssHolder">
+                <img class="fancybox" src="img/ss3.png" alt="">
+            </div>            
+          </div>
+        </section>
+        <section id="poem" class="row">
+              <div class="descriptionText">
+                <h4><i><script>document.write(poem);</script></i></h4>
+              </div>
+              <div class="descriptionText">
+                <h4><script>document.write(gameDesc);</script></h4>
+              </div>
+        </section>
+        
+        <section id="video" class="row">
+          <div class="videoWrapper">
+            <!--img src="img/ItemsImage_tinyfied.png" alt=""-->
+            <iframe width="839" height="474" src="https://www.youtube.com/embed/OGEBrfqWBaw" frameborder="0" allowfullscreen></iframe>>
+          </div>
+        </section>
+        
+        <section id="postVideo" class="rowBig">
+            <section id="social" class="rowInternal">
+            <div class="centralized">
+                <div class="columns">
+                    <b class="socialLink">Follow us:</b>
+                </div>   
+                <div class="columns">
+                <div class="half">
+                    <a id="facebookLink" target="_blank" href="https://www.facebook.com/behemutt?fref=ts" class="socialLink">
+                    <script>document.getElementById("facebookLink").onclick = function()
+                    {
+                    ga('social', 'facebookLink');
+                    };</script>                
+                    <img class="socialbutton" src="./img/facebookIcon.png">
+                    </a>
+                </div>
+                <div class="half">
+                    <a id="twitterLink" target="_blank" href="https://twitter.com/manasparkgame" class="socialLink">
+                    <script>document.getElementById("twitterLink").onclick = function()
+                    {
+                    ga('social', 'twitterLink');
+                    };</script> 
+                    <img class="socialbutton" src="./img/twitterIcon.png">
+                    </a>
+                </div>
+                </div>
+            </div>
+            </section>
+            <section class = "rowInternal">
+                <div class="centralized">
+                    <div class="columns">
+                        <b class="socialLink">More info:</b>
+                    </div>             
+                    <div class="columns">
+                        <div class="half">
+                            <a id="devlogLink" target="_blank" href="http://forums.tigsource.com/index.php?topic=50207.0" class="socialLink">
+                            <script>document.getElementById("facebookLink").onclick = function()
+                            {
+                            ga('social', 'devlogLink');
+                            };</script> 
+                            Devlog
+                            </a>
+                        </div>
+                        <div class="half">
+                            <a id="presskitLink" target="_blank" href="http://press.behemutt.com" class="socialLink">
+                            <script>document.getElementById("facebookLink").onclick = function()
+                            {
+                            ga('press', 'presskitLink');
+                            };</script> 
+                            PressKit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="rowBig">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+              <div class="rowInternal">
+          <form action="//behemutt.us12.list-manage.com/subscribe/post?u=dffda55cb48018d7dfbff1e8e&amp;id=18cfd9ee83" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Keep up with the project updates. Subscribe to our mailing list.</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_dffda55cb48018d7dfbff1e8e_18cfd9ee83" tabindex="-1" value=""></div>
+                  <br>
+                  <div class="clear"><input type="submit" value="Yes" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+          </form>
+          </div>
+          </div>
+          <!--End mc_embed_signup-->
+        </section>
+      </div>
+      <footer id="footer">
+        <div>&copy; Copyright 2015-2016 <a target="_blank" href="http://behemutt.com">Behemutt</a>. All Rights Reserved. </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
